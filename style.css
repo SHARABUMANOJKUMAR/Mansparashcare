@@ -65,7 +65,7 @@ body {
     position: relative;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     body {
         padding-bottom: 100px;
     }
@@ -138,7 +138,7 @@ img {
     padding: 0 var(--space-sm);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .container {
         width: 95%;
         padding: 0 1rem;
@@ -223,7 +223,7 @@ img {
     gap: 10px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .logo {
         font-size: 1.5rem;
     }
@@ -236,7 +236,7 @@ img {
     transition: transform 0.3s ease;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .logo img {
         height: 35px;
     }
@@ -522,7 +522,7 @@ img {
     border: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .btn {
         padding: 10px 24px;
         font-size: 0.95rem;
@@ -599,7 +599,7 @@ img {
     width: 100%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .card {
         padding: 1rem;
     }
@@ -676,7 +676,7 @@ img {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .theme-customizer {
         bottom: 15px;
         right: 15px;
@@ -696,7 +696,7 @@ img {
     background: rgba(255, 255, 255, 0.2);
 }
 
-@media (max-width: 350px) {
+@media (max-width: 374px) {
     .theme-btn {
         width: 35px;
         height: 35px;
@@ -722,7 +722,7 @@ footer {
     margin-bottom: 50px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     .footer-content {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -901,7 +901,7 @@ footer {
     text-align: left;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .timeline {
         padding-left: 20px;
     }
@@ -990,7 +990,7 @@ footer {
     overflow-wrap: break-word;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .therapist-info {
         padding: 0 0.5rem;
     }
@@ -1026,7 +1026,7 @@ footer {
     word-wrap: break-word;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .skill-badge {
         padding: 4px 12px;
         margin: 4px;
@@ -1154,7 +1154,7 @@ footer {
     word-wrap: break-word;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .accordion-header {
         padding: 12px 15px;
         font-size: 0.95rem;
@@ -1169,7 +1169,7 @@ footer {
     background: rgba(255, 255, 255, 0.05);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .accordion-content {
         padding: 0 15px;
     }
@@ -1180,7 +1180,7 @@ footer {
     max-height: 500px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .accordion-item.active .accordion-content {
         padding: 12px 15px;
     }
@@ -1212,7 +1212,7 @@ footer {
     background-color: var(--primary-color);
 }
 
-@media (max-width: 350px) {
+@media (max-width: 374px) {
     .floating-call-btn {
         width: 45px;
         height: 45px;
@@ -1272,13 +1272,13 @@ footer {
     transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .hero-center-logo img {
         width: 200px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .hero-center-logo img {
         width: 150px;
     }
@@ -1346,7 +1346,7 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .middle-bg-logo img {
         width: 200px;
     }
@@ -1377,13 +1377,13 @@ footer {
     animation: pulse-glow 7s infinite ease-in-out, floating 9s infinite ease-in-out;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .bg-deco-logo img {
         width: 180px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .bg-deco-logo img {
         width: 120px;
     }
@@ -1395,7 +1395,7 @@ footer {
     animation-duration: 9s, 11s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .bg-deco-logo.type-2 img {
         width: 220px;
     }
@@ -1407,7 +1407,7 @@ footer {
     animation-duration: 5s, 7s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .bg-deco-logo.type-3 img {
         width: 140px;
     }
@@ -1688,6 +1688,23 @@ li {
     border: 1px solid var(--glass-border);
 }
 
+.rating-stars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    width: max-content;
+}
+
+.rating-stars i {
+    display: inline-flex;
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+}
+
 [data-theme="dark"] .testimonial-rating {
     background: rgba(0, 0, 0, 0.2);
 }
@@ -1757,7 +1774,7 @@ li {
     transform: scale(1.08);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .testimonial-gallery {
         grid-template-columns: 1fr;
     }
